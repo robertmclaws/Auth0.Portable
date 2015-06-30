@@ -44,8 +44,8 @@
     <Compile Include="DelegatedRefreshToken.cs" />
     <Compile Include="DelegatedTokenBase.cs" />
     <Compile Include="DelegationRequestBase.cs" />
-    <Compile Include="RefreshTokenDelegationRequest.cs" />
     <Compile Include="IdTokenDelegationRequest.cs" />
+    <Compile Include="RefreshTokenDelegationRequest.cs" />
     <Compile Include="Properties\JetBrains.Annotations.cs" />
     <Compile Include="EncryptionKey.cs" />
     <Compile Include="Identity.cs" />

@@ -9,11 +9,21 @@ namespace Auth0.Core
     public class DelegatedIdToken : DelegatedTokenBase
     {
 
+        #region Properties
+
         /// <summary>
         /// 
         /// </summary>
         [JsonProperty("id_token")]
         public string IdToken { get; set; }
+
+        #endregion
+
+        #region Constructors
+
+
+
+        #endregion
 
     }
 
