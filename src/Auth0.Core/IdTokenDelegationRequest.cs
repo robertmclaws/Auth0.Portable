@@ -25,7 +25,7 @@ namespace Auth0.Core
         /// <param name="idToken"></param>
         public IdTokenDelegationRequest(string sourceClientId, string targetClientId, string idToken) : base(sourceClientId, targetClientId)
         {
-            IdToken = Idoken;
+            IdToken = IdToken;
         }
 
 
